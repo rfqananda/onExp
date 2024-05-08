@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Multimedia and iFrame</title>
+</head>
+<body>
+    <h2>Registration Form with Multimedia and iFrame</h2>
+    <table border="1" cellspacing="0" cellpadding="10" align="center">
+        <tr>
+            <td colspan="2"><strong>Personal Information</strong></td>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" placeholder="Enter your password" required></td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Interests:</td>
+            <td>
+                <input type="checkbox" name="interests" value="sports" id="sports"><label for="sports">Sports</label><br>
+                <input type="checkbox" name="interests" value="music" id="music"><label for="music">Music</label><br>
+                <input type="checkbox" name="interests" value="reading" id="reading"><label for="reading">Reading</label><br>
+            </td>
+        </tr>
+        <tr>
+            <td>Image:</td>
+            <td>
+                <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools Logo">    
+            </td>
+        </tr>
+        <tr>
+            <td>Video:</td>
+            <td>
+                
+<iframe width= "560" height= "315" 
+src= "https://www.youtube.com/embed/VKMw2it8dQY" 
+title="Leluhur RevoU Angkat Suara" frameborder= "0" allow="accelerometer; 
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+web-share" allowfullscreen></iframe>.
+
+            </td>
+        </tr>
+        <tr>
+            <td>Audio:</td>
+            <td>
+                <audio controls autoplay>
+                    <source src="samlekom.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                  </audio>    
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</body>
+</html>
